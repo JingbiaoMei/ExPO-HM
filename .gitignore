@@ -1,0 +1,24 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Local secrets (never commit)
+.api_keys/
+.env
+.env.*
+
+# OS / editor noise
+.DS_Store
+.idea/
+.vscode/
+
+# Generated datasets and artifacts (too large for git hosting)
+data/verl/
+data/image/
+checkpoints/
+wandb/
+output/
+logging/
+results/

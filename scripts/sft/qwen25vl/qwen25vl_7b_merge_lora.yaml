@@ -1,0 +1,14 @@
+### Note: Do NOT use quantized models when merging LoRA adapters.
+
+### model
+model_name_or_path: Qwen/Qwen2.5-VL-7B-Instruct
+adapter_name_or_path: checkpoints/fb/qwen2_5vl_7b/sft
+template: qwen2_vl
+trust_remote_code: true
+
+### export
+export_dir: checkpoints/fb/qwen2_5vl_7b/sft_merged
+export_size: 5
+export_device: cpu  # choices: [cpu, auto]
+export_legacy_format: false
+

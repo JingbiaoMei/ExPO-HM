@@ -1,0 +1,9 @@
+# Required dependencies for judge_reasoning evaluation package
+
+# Core dependencies for LLM-judge evaluation
+numpy>=1.21.0
+requests>=2.28.0
+tqdm>=4.64.0
+
+# LLM Judge evaluation
+openai>=1.0.0
