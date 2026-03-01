@@ -105,7 +105,7 @@ If this repository helps your research, please cite:
 
 ```bibtex
 @inproceedings{
-mei2026expohm,
+EXPOHM2026Mei,
 title={Ex{PO}-{HM}: Learning to Explain-then-Detect for Hateful Meme Detection},
 author={Jingbiao Mei and Mingsheng Sun and Jinghong Chen and Pengda Qin and Yuhong Li and Da Chen and Bill Byrne},
 booktitle={The Fourteenth International Conference on Learning Representations},
